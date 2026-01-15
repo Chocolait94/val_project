@@ -1,0 +1,193 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}VAL CONCEPT - Cabinet de gestion{% endblock %}
+
+{% block body %}
+{# Hero Section #}
+<section class="relative bg-gradient-to-br from-blue-900 via-blue-800 to-indigo-900 text-white py-20 lg:py-32 overflow-hidden">
+    <div class="absolute inset-0 bg-cover bg-center opacity-10 animate-slow-zoom" style="background-image: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1920')"></div>
+    
+    {# Animated particles #}
+    <div class="absolute inset-0 overflow-hidden">
+        <div class="floating-particle" style="top: 15%; left: 10%; animation-delay: 0s;"></div>
+        <div class="floating-particle" style="top: 25%; left: 85%; animation-delay: 1.5s;"></div>
+        <div class="floating-particle" style="top: 55%; left: 20%; animation-delay: 3s;"></div>
+        <div class="floating-particle" style="top: 75%; left: 75%; animation-delay: 0.5s;"></div>
+        <div class="floating-particle" style="top: 45%; left: 92%; animation-delay: 2.5s;"></div>
+    </div>
+    
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-3xl">
+            <div class="inline-flex items-center justify-center w-20 h-20 bg-white/20 backdrop-blur-sm rounded-full mb-6 btp-icon-pulse">
+                <i class="fas fa-lightbulb text-4xl text-white"></i>
+            </div>
+            <h1 class="text-4xl lg:text-6xl font-bold mb-6 text-red-600 btp-slide-in-left">VAL CONCEPT</h1>
+            <p class="text-xl lg:text-2xl text-gray-200 leading-relaxed mb-6 btp-slide-in-right">
+                Découvrez VAL CONCEPT, un cabinet dédié à la gestion de votre projet de création.
+            </p>
+            <p class="text-lg text-gray-300 leading-relaxed mb-4 btp-fade-in" style="animation-delay: 0.4s;">
+                Au cœur de VAL FUSION GROUPE, situé à Val-De-Reuil, nous nous engageons à être votre partenaire privilégié dans la réalisation de vos ambitions entrepreneuriales.
+            </p>
+            <p class="text-lg text-gray-300 leading-relaxed mb-8 btp-fade-in" style="animation-delay: 0.6s;">
+                Grâce à notre expertise dans divers domaines, nous vous accompagnons efficacement dans chaque phase de votre projet.
+            </p>
+            <a href="{{ path('app_contact') }}" class="btp-cta-button inline-block bg-white text-blue-700 px-8 py-4 rounded-full font-bold text-lg shadow-xl btp-fade-in" style="animation-delay: 0.8s;">
+                En savoir plus
+            </a>
+        </div>
+    </div>
+</section>
+
+{# Strategy Section #}
+<section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16 btp-scroll-reveal">
+            <h2 class="text-4xl font-bold text-red-600 mb-6 btp-heading-reveal">Notre Stratégie</h2>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+            <div class="btp-service-card bg-gradient-to-br from-yellow-50 to-yellow-100 rounded-2xl p-8 shadow-lg btp-scroll-reveal" style="animation-delay: 0.1s;">
+                <div class="btp-card-shine"></div>
+                <div class="text-5xl mb-4 concept-emoji-bounce">🎖️</div>
+                <h3 class="text-2xl font-bold text-red-600 mb-4">La réussite</h3>
+                <p class="text-gray-700 leading-relaxed">
+                    Notre équipe possède une vaste connaissance du secteur, notamment en matière de construction, de gestion de projets et de conseils en affaires.
+                </p>
+            </div>
+            
+            <div class="btp-service-card bg-gradient-to-br from-orange-50 to-orange-100 rounded-2xl p-8 shadow-lg btp-scroll-reveal" style="animation-delay: 0.2s;">
+                <div class="btp-card-shine"></div>
+                <div class="text-5xl mb-4 concept-emoji-bounce" style="animation-delay: 0.2s;">🔨</div>
+                <h3 class="text-2xl font-bold text-red-600 mb-4">L'innovation</h3>
+                <p class="text-gray-700 leading-relaxed">
+                    Nous comprenons l'importance d'une organisation administrative optimisée et d'un développement commercial dynamique pour le succès de votre entreprise.
+                </p>
+            </div>
+            
+            <div class="btp-service-card bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8 shadow-lg btp-scroll-reveal" style="animation-delay: 0.3s;">
+                <div class="btp-card-shine"></div>
+                <div class="text-5xl mb-4 concept-emoji-bounce" style="animation-delay: 0.4s;">🚀</div>
+                <h3 class="text-2xl font-bold text-red-600 mb-4">L'ambition</h3>
+                <p class="text-gray-700 leading-relaxed">
+                    Ainsi, nous mettons en place des stratégies personnalisées qui répondent aux besoins spécifiques de votre organisation.
+                </p>
+            </div>
+        </div>
+        
+        <div class="bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-2xl p-8 text-center shadow-xl btp-scroll-reveal concept-highlight-box">
+            <p class="text-xl font-semibold">
+                Cette stratégie vous donne un service de qualité, d'organisation et de fiabilité
+            </p>
+        </div>
+    </div>
+</section>
+
+{# Services Section #} btp-scroll-reveal">
+            <h2 class="text-4xl font-bold text-red-600 mb-6 btp-heading-reveal">LA CONCEPTION CHEZ VAL CONCEPT</h2>
+            <p class="text-lg text-gray-700 leading-relaxed max-w-3xl mx-auto mb-4 btp-fade-in" style="animation-delay: 0.2s;">
+                En plus de nos services de gestion, nous offrons également un centre de formation complet qui vous permet d'acquérir les compétences nécessaires pour faire face aux défis de votre secteur.
+            </p>
+            <p class="text-lg text-gray-700 leading-relaxed max-w-3xl mx-auto btp-fade-in" style="animation-delay: 0.3s;">
+                Choisissez VAL CONCEPT pour bénéficier d'une expertise globale et d'un accompagnement sur mesure.
+            </p>
+        </div>
+        
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div class="space-y-6">
+                <div class="btp-expertise-card bg-white rounded-2xl p-6 shadow-lg btp-scroll-reveal" style="animation-delay: 0.2s;">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0">
+                            <div class="flex items-center justify-center w-12 h-12 bg-blue-100 rounded-full btp-icon-bounce">
+                                <i class="fas fa-chart-line text-blue-600 text-xl"></i>
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-xl font-bold text-red-600 mb-2">Gestion de Projet</h3>
+                            <p class="text-gray-600">Accompagnement complet dans la création et le développement de votre entreprise.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="btp-expertise-card bg-white rounded-2xl p-6 shadow-lg btp-scroll-reveal" style="animation-delay: 0.4s;">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0">
+                            <div class="flex items-center justify-center w-12 h-12 bg-green-100 rounded-full btp-icon-bounce" style="animation-delay: 0.2s;">
+                                <i class="fas fa-cogs text-green-600 text-xl"></i>
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-xl font-bold text-red-600 mb-2">Organisation Administrative</h3>
+                            <p class="text-gray-600">Optimisation de vos processus administratifs pour plus d'efficacité.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="btp-expertise-card bg-white rounded-2xl p-6 shadow-lg btp-scroll-reveal" style="animation-delay: 0.6s;">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0">
+                            <div class="flex items-center justify-center w-12 h-12 bg-purple-100 rounded-full btp-icon-bounce" style="animation-delay: 0.4s;">
+                                <i class="fas fa-handshake text-purple-600 text-xl"></i>
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-xl font-bold text-red-600 mb-2">Conseil en Affaires</h3>
+                            <p class="text-gray-600">Stratégies personnalisées pour développer votre activité commerciale.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-gradient-to-br from-blue-100 to-indigo-100 rounded-2xl aspect-square flex items-center justify-center shadow-xl btp-scroll-reveal btp-rotate-icon" style="animation-delay: 0.3s;">
+                <i class="fas fa-briefcase text-9xl text-blue-600/30 btp-tool-float
+            
+            <div class="bg-gradient-to-br from-blue-100 to-indigo-100 rounded-2xl aspect-square flex items-center justify-center shadow-xl">
+                <i class="fas fa-briefcase text-9xl text-blue-600/30"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+{# Testimonials Section #}
+<section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16 btp-scroll-reveal">
+            <h2 class="text-4xl font-bold text-red-600 mb-6 btp-heading-reveal">Découvrez ce que nos clients disent de nous !</h2>
+            <p class="text-lg text-gray-700 leading-relaxed max-w-3xl mx-auto mb-4 btp-fade-in" style="animation-delay: 0.2s;">
+                Lisez des témoignages de nos clients satisfaits qui ont bénéficié de nos services.
+            </p>
+            <p class="text-lg text-gray-700 leading-relaxed max-w-3xl mx-auto mb-4 btp-fade-in" style="animation-delay: 0.3s;">
+                Ils partagent leurs expériences de création de projets réussis grâce à VAL FUSION GROUPE et notre expertise en gestion.
+            </p>
+            <p class="text-lg text-gray-700 leading-relaxed max-w-3xl mx-auto mb-4 btp-fade-in" style="animation-delay: 0.4s;">
+                Notre engagement envers l'excellence et notre capacité à répondre aux besoins de nos clients ont permis de bâtir des relations solides et durables.
+            </p>
+            <p class="text-lg text-gray-700 leading-relaxed max-w-3xl mx-auto btp-fade-in" style="animation-delay: 0.5s;">
+                Chaque projet est une nouvelle aventure et nous sommes fiers de contribuer à la réalisation des ambitions de nos clients en leur offrant des solutions sur mesure dans les domaines de la construction, de la gestion des affaires, et de la sécurité.
+            </p>
+        </div>
+        
+        <div class="bg-gradient-to-br from-gray-100 to-gray-50 rounded-2xl aspect-video flex items-center justify-center shadow-xl btp-scroll-reveal concept-testimonial-box">
+            <i class="fas fa-quote-left text-6xl text-gray-400 concept-quote-float"></i>
+        </div>
+    </div>
+</section>
+
+{# CTA Section #}
+<section class="py-20 bg-gradient-to-r from-red-600 to-red-800 text-white relative overflow-hidden">
+    {# Animated background elements #}
+    <div class="absolute inset-0 opacity-10">
+        <div class="btp-wave" style="animation-delay: 0s;"></div>
+        <div class="btp-wave" style="animation-delay: 2s;"></div>
+    </div>
+    
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+        <h2 class="text-3xl lg:text-4xl font-bold mb-6 text-white btp-pulse-text">Prêt à donner vie à votre projet ?</h2>
+        <p class="text-lg lg:text-xl mb-8 max-w-3xl mx-auto btp-fade-in" style="animation-delay: 0.3s;">
+            Contactez VAL CONCEPT dès aujourd'hui pour bénéficier d'un accompagnement personnalisé et professionnel.
+        </p>
+        <a href="{{ path('app_contact') }}" class="btp-cta-button inline-block bg-white text-red-700 px-10 py-4 rounded-full font-bold text-lg shadow-xl">
+            Contactez-nous
+        </a>
+    </div>
+</section>
+{% endblock %}

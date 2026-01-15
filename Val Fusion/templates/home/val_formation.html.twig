@@ -1,0 +1,212 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}VAL FORMATION - Centre de formation{% endblock %}
+
+{% block body %}
+{# Hero Section #}
+<section class="relative bg-gradient-to-br from-green-900 via-green-800 to-teal-900 text-white py-20 lg:py-32">
+    <div class="absolute inset-0 bg-cover bg-center opacity-10" style="background-image: url('https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=1920')"></div>
+    
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div data-aos="fade-right" data-aos-duration="1000">
+                <div class="inline-flex items-center justify-center w-20 h-20 bg-white/20 backdrop-blur-sm rounded-full mb-6 transition-all duration-500 hover:scale-110 hover:bg-white/30" data-aos="zoom-in" data-aos-duration="800">
+                    <i class="fas fa-graduation-cap text-4xl text-white"></i>
+                </div>
+                <h1 class="text-4xl lg:text-6xl font-bold mb-6 text-red-600" data-aos="fade-down" data-aos-delay="200">VAL FORMATION</h1>
+                <h2 class="text-2xl lg:text-3xl font-semibold text-red-200 mb-6">
+                    Développez Vos Compétences avec VAL FORMATION
+                </h2>
+                <p class="text-lg text-gray-200 leading-relaxed mb-4">
+                    VAL FORMATION propose des formations spécialisées dans le BTP, la sécurité et le nettoyage.
+                </p>
+                <p class="text-lg text-gray-200 leading-relaxed mb-4">
+                    Notre objectif est d'accompagner les professionnels dans leur montée en compétences et d'assurer la conformité aux normes en vigueur.
+                </p>
+                <p class="text-lg text-gray-200 leading-relaxed">
+                    Grâce à nos méthodes pédagogiques innovantes, nous offrons des programmes variés qui répondent aux besoins spécifiques de chaque professionnel.
+                </p>
+            </div>
+            
+            <div class="bg-white/10 backdrop-blur-sm rounded-2xl aspect-square flex items-center justify-center border border-white/20 transition-all duration-500 hover:scale-105 hover:border-white/40" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+                <i class="fas fa-chalkboard-teacher text-9xl text-white/30"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+{# Why VAL FORMATION #}
+<section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto text-center space-y-6" data-aos="fade-up">
+            <p class="text-lg text-gray-700 leading-relaxed" data-aos="fade-up" data-aos-delay="100">
+                Que vous soyez en phase de reconversion, d'amélioration de vos compétences ou simplement à la recherche d'une mise à jour de vos connaissances, VAL FORMATION a la solution adaptée à vos attentes.
+            </p>
+            <p class="text-xl font-semibold text-gray-900">
+                Découvrez nos formations sur mesure et engagez-vous dans une démarche de perfectionnement continu.
+            </p>
+        </div>
+    </div>
+</section>
+
+{# Formations Section #}
+<section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16" data-aos="fade-up">
+            <h2 class="text-4xl font-bold text-red-600 mb-6" data-aos="zoom-in">FORMATIONS PROPOSÉES</h2>
+            <p class="text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed" data-aos="fade-up" data-aos-delay="100">
+                Explorez notre large gamme de formations, du BTP au transport, sécurité, nettoyage, et même restauration, en passant par la création d'entreprise, la communication et le management.
+            </p>
+            <p class="text-xl font-semibold text-green-700 mt-4">
+                Ensemble ! Développez vos compétences et bâtissez un avenir solide pour votre entreprise avec VAL FORMATION.
+            </p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {# BTP #}
+            <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 hover:-translate-y-2" data-aos="fade-up" data-aos-delay="200">
+                <div class="bg-gradient-to-br from-orange-500 to-orange-600 h-48 flex items-center justify-center">
+                    <i class="fas fa-hard-hat text-6xl text-white"></i>
+                </div>
+                <div class="p-8">
+                    <h3 class="text-2xl font-bold text-red-600 mb-4">BTP et métiers du bâtiment</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Formations pratiques et théoriques pour maçons, façadiers, peintres, électriciens et techniciens du bâtiment.
+                    </p>
+                    <ul class="mt-4 space-y-2">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                            <span class="text-gray-700">Maçonnerie et gros œuvre</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                            <span class="text-gray-700">Façades et ravalement</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                            <span class="text-gray-700">Second œuvre et finitions</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            {# Sécurité #}
+            <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition">
+                <div class="bg-gradient-to-br from-red-500 to-red-600 h-48 flex items-center justify-center">
+                    <i class="fas fa-shield-alt text-6xl text-white"></i>
+                </div>
+                <div class="p-8">
+                    <h3 class="text-2xl font-bold text-red-600 mb-4">Sécurité et prévention</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Formations SST, risques chimiques, amiante, échafaudages et prévention incendie pour garantir la sécurité sur les chantiers.
+                    </p>
+                    <ul class="mt-4 space-y-2">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                            <span class="text-gray-700">SST (Sauveteur Secouriste du Travail)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                            <span class="text-gray-700">Prévention incendie</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                            <span class="text-gray-700">Travail en hauteur et échafaudages</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            {# Transport et Nettoyage #}
+            <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition">
+                <div class="bg-gradient-to-br from-blue-500 to-blue-600 h-48 flex items-center justify-center">
+                    <i class="fas fa-truck text-6xl text-white"></i>
+                </div>
+                <div class="p-8">
+                    <h3 class="text-2xl font-bold text-red-600 mb-4">Transport et Nettoyage</h3>
+                    <p class="text-gray-700 leading-relaxed mb-4">
+                        Formations pratiques pour le transport de matériel et la gestion logistique sur chantiers.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed mb-4">
+                        Apprentissage des techniques de nettoyage et d'entretien des sites dans le respect des normes de sécurité.
+                    </p>
+                    <p class="text-sm font-semibold text-gray-800">
+                        Compétences développées : efficacité, ponctualité et respect des règles environnementales.
+                    </p>
+                </div>
+            </div>
+            
+            {# Insertion professionnelle #}
+            <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition">
+                <div class="bg-gradient-to-br from-purple-500 to-purple-600 h-48 flex items-center justify-center">
+                    <i class="fas fa-users text-6xl text-white"></i>
+                </div>
+                <div class="p-8">
+                    <h3 class="text-2xl font-bold text-red-600 mb-4">Insertion professionnelle et accompagnement</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Programmes pour jeunes, adultes et personnes en reconversion, incluant coaching, suivi individuel et découverte des métiers.
+                    </p>
+                    <ul class="mt-4 space-y-2">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                            <span class="text-gray-700">Coaching personnalisé</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                            <span class="text-gray-700">Découverte des métiers</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                            <span class="text-gray-700">Accompagnement à l'emploi</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{# Additional Formations #}
+<section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-bold text-gray-900 mb-4">Autres formations disponibles</h2>
+        </div>
+        
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div class="bg-gradient-to-br from-yellow-50 to-yellow-100 rounded-xl p-6 text-center shadow-md hover:shadow-lg transition">
+                <i class="fas fa-utensils text-4xl text-yellow-600 mb-3"></i>
+                <h4 class="font-semibold text-gray-900">Restauration</h4>
+            </div>
+            
+            <div class="bg-gradient-to-br from-pink-50 to-pink-100 rounded-xl p-6 text-center shadow-md hover:shadow-lg transition">
+                <i class="fas fa-bullhorn text-4xl text-pink-600 mb-3"></i>
+                <h4 class="font-semibold text-gray-900">Communication</h4>
+            </div>
+            
+            <div class="bg-gradient-to-br from-indigo-50 to-indigo-100 rounded-xl p-6 text-center shadow-md hover:shadow-lg transition">
+                <i class="fas fa-briefcase text-4xl text-indigo-600 mb-3"></i>
+                <h4 class="font-semibold text-gray-900">Création d'entreprise</h4>
+            </div>
+            
+            <div class="bg-gradient-to-br from-teal-50 to-teal-100 rounded-xl p-6 text-center shadow-md hover:shadow-lg transition">
+                <i class="fas fa-tasks text-4xl text-teal-600 mb-3"></i>
+                <h4 class="font-semibold text-gray-900">Management</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+{# CTA Section #}
+<section class="py-20 bg-gradient-to-r from-red-600 to-red-800 text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl lg:text-4xl font-bold mb-6 text-white">Prêt à développer vos compétences ?</h2>
+        <p class="text-lg lg:text-xl mb-8 max-w-3xl mx-auto">
+            Contactez VAL FORMATION dès aujourd'hui pour découvrir nos programmes de formation et donner un nouvel élan à votre carrière.
+        </p>
+        <a href="{{ path('app_contact') }}" class="inline-block bg-white text-red-700 px-10 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition shadow-xl transform hover:scale-105">
+            Contactez-nous pour vous inscrire
+        </a>
+    </div>
+</section>
+{% endblock %}

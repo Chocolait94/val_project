@@ -1,0 +1,124 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}À propos de nous - VAL FUSION{% endblock %}
+
+{% block body %}
+{# Hero Section #}
+<section class="relative bg-gradient-to-br from-gray-900 via-gray-800 to-blue-900 text-white py-20">
+    <div class="absolute inset-0 bg-cover bg-center opacity-10" style="background-image: url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920')"></div>
+    
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h1 class="text-4xl lg:text-6xl font-bold mb-6 text-red-600" data-aos="fade-down" data-aos-duration="1000">L'essence de VAL FUSION GROUPE</h1>
+        <p class="text-xl lg:text-2xl text-gray-200 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="200">
+            Chez VAL FUSION, nous sommes passionnés par la construction et la gestion.
+        </p>
+        <p class="text-lg lg:text-xl text-gray-300 mt-4 max-w-3xl mx-auto">
+            Notre équipe est composée d'experts dans divers domaines pour vous offrir des services de qualité supérieure.
+        </p>
+    </div>
+</section>
+
+{# Content Section #}
+<section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
+            <div class="space-y-6" data-aos="fade-right" data-aos-duration="1000">
+                <h2 class="text-3xl font-bold text-red-600" data-aos="fade-down">Notre Vision</h2>
+                <p class="text-lg text-gray-700 leading-relaxed">
+                    Le Groupe VAL FUSION réunit plusieurs pôles complémentaires dédiés au BTP et aux services associés. 
+                    Notre mission est d'apporter une offre intégrée et innovante alliant construction, gestion, sécurité, formation et services.
+                </p>
+                <p class="text-lg text-gray-700 leading-relaxed">
+                    Nous accompagnons nos clients avec professionnalisme, proximité et sens de l'innovation. 
+                    Acteur engagé, nous plaçons la qualité, la sécurité et l'insertion au cœur de nos actions.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-2 gap-4" data-aos="fade-left" data-aos-duration="1000">
+                <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl aspect-square flex items-center justify-center shadow-lg transition-all duration-500 hover:shadow-2xl hover:scale-105" data-aos="zoom-in" data-aos-delay="100">
+                    <i class="fas fa-users text-6xl text-blue-600"></i>
+                </div>
+                <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-2xl aspect-square flex items-center justify-center shadow-lg transition-all duration-500 hover:shadow-2xl hover:scale-105" data-aos="zoom-in" data-aos-delay="200">
+                    <i class="fas fa-chart-line text-6xl text-green-600"></i>
+                </div>
+                <div class="bg-gradient-to-br from-orange-50 to-orange-100 rounded-2xl aspect-square flex items-center justify-center shadow-lg transition-all duration-500 hover:shadow-2xl hover:scale-105" data-aos="zoom-in" data-aos-delay="300">
+                    <i class="fas fa-handshake text-6xl text-orange-600"></i>
+                </div>
+                <div class="bg-gradient-to-br from-purple-50 to-purple-100 rounded-2xl aspect-square flex items-center justify-center shadow-lg transition-all duration-500 hover:shadow-2xl hover:scale-105" data-aos="zoom-in" data-aos-delay="400">
+                    <i class="fas fa-award text-6xl text-purple-600"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{# Values Section #}
+<section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16" data-aos="fade-up">
+            <h2 class="text-4xl font-bold text-red-600 mb-4" data-aos="zoom-in">Nos Valeurs</h2>
+            <p class="text-lg text-gray-600" data-aos="fade-up" data-aos-delay="100">Ce qui nous guide au quotidien</p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white rounded-2xl shadow-lg p-8 text-center hover:shadow-2xl transition-all duration-500 hover:-translate-y-2" data-aos="fade-up" data-aos-delay="100">
+                <div class="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full mb-6 transition-transform duration-300 group-hover:scale-110">
+                    <i class="fas fa-star text-2xl text-white"></i>
+                </div>
+                <h3 class="text-2xl font-bold text-red-600 mb-4">Qualité</h3>
+                <p class="text-gray-600">
+                    Nous nous engageons à fournir des services de la plus haute qualité à chacun de nos clients.
+                </p>
+            </div>
+            
+            <div class="bg-white rounded-2xl shadow-lg p-8 text-center hover:shadow-2xl transition-all duration-500 hover:-translate-y-2" data-aos="fade-up" data-aos-delay="200">
+                <div class="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-full mb-6 transition-transform duration-300 group-hover:scale-110">
+                    <i class="fas fa-shield-alt text-2xl text-white"></i>
+                </div>
+                <h3 class="text-2xl font-bold text-red-600 mb-4">Sécurité</h3>
+                <p class="text-gray-600">
+                    La sécurité est au cœur de toutes nos interventions, pour protéger nos équipes et nos clients.
+                </p>
+            </div>
+            
+            <div class="bg-white rounded-2xl shadow-lg p-8 text-center hover:shadow-2xl transition-all duration-500 hover:-translate-y-2" data-aos="fade-up" data-aos-delay="300">
+                <div class="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-full mb-6 transition-transform duration-300 group-hover:scale-110">
+                    <i class="fas fa-lightbulb text-2xl text-white"></i>
+                </div>
+                <h3 class="text-2xl font-bold text-red-600 mb-4">Innovation</h3>
+                <p class="text-gray-600">
+                    Nous adoptons les dernières technologies et méthodes pour rester à la pointe de notre secteur.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+{# CTA Section #}
+<section class="py-20 bg-gradient-to-r from-red-600 to-red-800 text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center" data-aos="zoom-in" data-aos-duration="1000">
+            <h2 class="text-3xl lg:text-4xl font-bold mb-6">Prêt à nous rejoindre pour construire l'avenir ?</h2>
+            <p class="text-lg lg:text-xl mb-8 max-w-3xl mx-auto">
+                Que vous soyez à la recherche de services de construction, de conseils en gestion ou de formations spécialisées, nous avons ce qu'il vous faut !
+            </p>
+            <h3 class="text-2xl font-bold mb-8">Rejoignez-nous dans notre mission !</h3>
+            <a href="{{ path('app_contact') }}" class="inline-block bg-white text-blue-700 px-10 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition shadow-xl transform hover:scale-105">
+                Contactez-nous
+            </a>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16">
+            <div class="bg-white/10 backdrop-blur-sm rounded-2xl aspect-square flex items-center justify-center">
+                <i class="fas fa-image text-6xl text-white/50"></i>
+            </div>
+            <div class="bg-white/10 backdrop-blur-sm rounded-2xl aspect-square flex items-center justify-center">
+                <i class="fas fa-image text-6xl text-white/50"></i>
+            </div>
+            <div class="bg-white/10 backdrop-blur-sm rounded-2xl aspect-square flex items-center justify-center">
+                <i class="fas fa-image text-6xl text-white/50"></i>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
